@@ -18,7 +18,7 @@ const contactLinks = [
   {
     icon: Linkedin,
     label: 'LinkedIn',
-    value: 'nikhil-singh-rautela',
+    value: 'https://www.linkedin.com/in/nikhil-singh-rautela-46487224a/',
     href: personalInfo.linkedin,
   },
   {
