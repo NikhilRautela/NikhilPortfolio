@@ -64,7 +64,7 @@ export const projects = [
   {
     title: 'JobPrep AI',
     subtitle: 'AI-Powered Interview Preparation Platform',
-    date: 'March 2026',
+    date: 'May 2026',
     description:
       'A full-stack SaaS platform where users upload their resume and receive AI-generated, personalised interview questions via the OpenRouter LLM API. Features a modular REST API with 5 domains, Firebase Google Auth, and a Razorpay credit-based payment system.',
     tech: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'Firebase', 'Razorpay', 'OpenRouter LLM'],
@@ -74,10 +74,23 @@ export const projects = [
     icon: '🤖',
     color: 'from-blue-500/10 to-indigo-500/10',
   },
-  {
+ {
+    title: 'MovieMania',
+    subtitle: 'Full-Stack Movie Discovery App',
+    date: 'March 2026',
+    description:
+      'A responsive movie discovery web app with real-time search, user authentication (register, login, forgot password), and a personal favourites system. Built with React, Context API for global state, and the TMDB REST API for live movie data.',
+    tech: ['React.js', 'React Router', 'Context API', 'TMDB API', 'CSS', 'Vercel'],
+    github: 'https://github.com/NikhilRautela/MovieMania',
+    live: 'https://movie-mania-nikgil.vercel.app/',
+    badge: 'Live Demo',
+    icon: '🎬',
+    color: 'from-violet-500/10 to-purple-500/10',
+  },
+    {
     title: 'TaskFlow',
     subtitle: 'Full-Stack SaaS Task Manager',
-    date: 'May 2026',
+    date: 'Dec 2025',
     description:
       'A production-grade task management SaaS with JWT authentication, bcrypt password hashing, and protected API routes. Built on a PostgreSQL + Prisma ORM schema with full CRUD operations. Frontend deployed on Vercel, backend on Render with automated database migrations.',
     tech: ['React.js', 'Node.js', 'Express.js', 'PostgreSQL', 'Prisma ORM', 'JWT', 'Vercel'],
@@ -86,19 +99,6 @@ export const projects = [
     badge: 'Live Demo',
     icon: '✅',
     color: 'from-emerald-500/10 to-teal-500/10',
-  },
-  {
-    title: 'MovieMania',
-    subtitle: 'Content-Based Movie Recommendation Engine',
-    date: 'October 2025',
-    description:
-      'An ML-powered recommendation system using TF-IDF vectorisation and cosine similarity across 5,000+ movie plots. Integrated with the TMDB REST API for real-time metadata (posters, genres, ratings) with average response times under 300ms.',
-    tech: ['Python', 'Flask', 'TF-IDF', 'Scikit-learn', 'TMDB API', 'Tailwind CSS'],
-    github: 'https://github.com/NikhilRautela/Recommendation',
-    live: null,
-    badge: 'ML Project',
-    icon: '🎬',
-    color: 'from-violet-500/10 to-purple-500/10',
   },
 ]
 
