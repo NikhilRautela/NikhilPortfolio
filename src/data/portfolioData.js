@@ -3,7 +3,7 @@ export const personalInfo = {
   role: 'Full-Stack Software Developer',
   tagline: 'Building production-grade applications with React, Node.js & AI integrations.',
   about: [
-    "I'm a B.Tech Computer Science graduate from Graphic Era Hill University, Bhimtal (CGPA: 8/10)",
+    "I'm a B.Tech Computer Science graduate from Graphic Era Hill University, Bhimtal",
     "I specialize in full-stack web development — designing REST APIs, building React frontends, and integrating third-party services like LLM APIs, Firebase, and payment gateways.",
     "I'm passionate about AI-assisted development, scalable system design, and writing clean, maintainable code that works in production.",
   ],
@@ -15,7 +15,6 @@ export const personalInfo = {
 
 export const stats = [
   { value: '7+',   label: 'Projects Shipped' },
-  { value: '8', label: 'CGPA / 10' },
   { value: '5+',   label: 'Languages & Stacks' },
   { value: '2026', label: 'Graduating' },
 ]
