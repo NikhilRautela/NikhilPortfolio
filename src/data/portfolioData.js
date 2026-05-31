@@ -14,7 +14,7 @@ export const personalInfo = {
 }
 
 export const stats = [
-  { value: '3+',   label: 'Projects Shipped' },
+  { value: '7+',   label: 'Projects Shipped' },
   { value: '8.05', label: 'CGPA / 10' },
   { value: '5+',   label: 'Languages & Stacks' },
   { value: '2026', label: 'Graduating' },
