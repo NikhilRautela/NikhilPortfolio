@@ -92,6 +92,7 @@ export default function Experience() {
 
           {/* Right column — Certifications + Leadership */}
           <div className="space-y-5">
+
             {/* Certifications */}
             <div className="reveal reveal-delay-2 card">
               <h3 className="text-sm font-semibold text-gray-900 dark:text-white mb-4
@@ -106,9 +107,20 @@ export default function Experience() {
                     <p className="text-sm font-medium text-gray-800 dark:text-gray-200 leading-snug">
                       {cert.title}
                     </p>
-                    <p className="text-xs text-gray-400 dark:text-gray-500 mt-0.5 font-mono">
-                      {cert.issuer}
-                    </p>
+                    <div className="flex items-center justify-between mt-0.5">
+                      <p className="text-xs text-gray-400 dark:text-gray-500 font-mono">
+                        {cert.issuer}
+                      </p>
+                      <a
+                        href={cert.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-xs font-medium text-blue-500 hover:text-blue-600
+                                   dark:hover:text-blue-400 transition-colors"
+                      >
+                        Verify ↗
+                      </a>
+                    </div>
                   </div>
                 ))}
               </div>
@@ -132,6 +144,7 @@ export default function Experience() {
                 </li>
               </ul>
             </div>
+
           </div>
         </div>
       </div>

@@ -33,7 +33,7 @@ export default function Projects() {
           <h2 className="section-title">Featured Work</h2>
           <p className="section-subtitle max-w-xl">
             A selection of projects I've designed, built, and shipped — ranging from
-            full-stack SaaS platforms to ML-powered applications.
+full-stack SaaS platforms to AI-integrated and React-based applications.
           </p>
           <div className="w-12 h-0.5 bg-blue-600 rounded-full mt-4" />
         </div>
