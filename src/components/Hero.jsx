@@ -65,7 +65,7 @@ export default function Hero() {
                         text-xs font-medium px-4 py-1.5 rounded-full
                         animate-fade-in">
           <span className="w-1.5 h-1.5 rounded-full bg-green-500 animate-pulse" />
-          Open to opportunities · May 2026
+              Open to opportunities · Available Now
         </div>
 
         {/* Name */}
